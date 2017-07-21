@@ -1,6 +1,6 @@
 # angular-scaffold-captcha
 
-This project provides is built on the code base of angular-scaffold project, we added a dCAPTCHA page to demonstrate integration patter with BC Gov's [CAPTCHA Widget](https://github.com/bcgov/MyGovBC-CAPTCHA-Widget).
+This project provides is built on the code base of angular-scaffold project, we added a CAPTCHA page to demonstrate integration patter with BC Gov's [CAPTCHA Widget](https://github.com/bcgov/MyGovBC-CAPTCHA-Widget).
 
 
 This application has a complete development environment set up, including build, test, deploy, routing, simple components, service, and directives as examples and templates.
