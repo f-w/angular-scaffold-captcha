@@ -15,7 +15,7 @@ import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component';
 import { CaptchaDemoComponent } from './captcha/captcha.component';
 // import { CaptchaComponent } from "mygovbc-captcha-widget/component";
 declare var require: any;
-let CaptchaComponent = require("mygovbc-captcha-widget/component").CaptchaComponent;
+// let CaptchaComponent = require("mygovbc-captcha-widget/component").CaptchaComponent;
 
 @NgModule({
   declarations: [
@@ -25,7 +25,7 @@ let CaptchaComponent = require("mygovbc-captcha-widget/component").CaptchaCompon
     DashboardComponent,
     BreadcrumbComponent,
     CaptchaDemoComponent,
-    CaptchaComponent
+    // CaptchaComponent
   ],
   imports: [
     BrowserModule,
