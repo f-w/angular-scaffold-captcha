@@ -13,9 +13,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { AdminModule } from 'app/admin/admin.module';
 import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component';
 import { CaptchaDemoComponent } from './captcha/captcha.component';
-import { CaptchaComponent } from "mygovbc-captcha-widget/component";
-declare var require: any;
-// let CaptchaComponent = require("mygovbc-captcha-widget/component").CaptchaComponent;
+import { CaptchaComponent } from "mygovbc-captcha-widget/lib/captcha.component";
 
 @NgModule({
   declarations: [
@@ -33,7 +31,7 @@ declare var require: any;
     HttpModule,
     AppRoutingModule,
     NgbModule,
-    AdminModule,
+    AdminModule
   ],
   providers: [GeneralDataService],
   bootstrap: [AppComponent]
