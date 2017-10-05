@@ -13,7 +13,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { AdminModule } from 'app/admin/admin.module';
 import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component';
 import { CaptchaDemoComponent } from './captcha/captcha.component';
-import { CaptchaComponent } from "mygovbc-captcha-widget/lib/captcha.component";
+import { CaptchaComponent } from "mygovbc-captcha-widget/src/app/captcha/captcha.component";
 
 @NgModule({
   declarations: [
