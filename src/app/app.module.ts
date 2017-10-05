@@ -14,6 +14,7 @@ import { AdminModule } from 'app/admin/admin.module';
 import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component';
 import { CaptchaDemoComponent } from './captcha/captcha.component';
 import { CaptchaComponent } from "mygovbc-captcha-widget/src/app/captcha/captcha.component";
+import { CaptchaDataService } from "mygovbc-captcha-widget/src/app/captcha-data.service";
 
 @NgModule({
   declarations: [
@@ -33,7 +34,7 @@ import { CaptchaComponent } from "mygovbc-captcha-widget/src/app/captcha/captcha
     NgbModule,
     AdminModule
   ],
-  providers: [GeneralDataService],
+  providers: [GeneralDataService, CaptchaDataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
