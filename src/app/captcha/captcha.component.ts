@@ -11,6 +11,9 @@ export class CaptchaDemoComponent implements OnInit {
 
   ngOnInit() {
   }
+  
+  selectedLanguage = 'en'
+  supportedLanguages = [['zh', 'Chinese'], ['en', 'English'],['fr','French'],['pa','Punjabi']]
 
   handleAuthToken(token){
     console.log('auth token received: %o', token);

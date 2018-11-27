@@ -17,6 +17,15 @@
       "es2015",
       "es2016",
       "dom"
-    ]
-  }
+    ],
+    "module": "es2015"
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "files": [
+    "src/app/app.module.ts",
+    "node_modules/mygovbc-captcha-widget/src/app/captcha-data.service.ts",
+    "node_modules/mygovbc-captcha-widget/src/app/captcha/captcha.component.ts"
+  ]
 }
